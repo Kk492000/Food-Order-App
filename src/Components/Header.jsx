@@ -6,11 +6,10 @@ import { CartContext } from "../store/CartContext.jsx";
 export default function Header() {
   const auth = useContext(CartContext);
 
-  console.log(auth, "authiscoming");
   return (
     <header id="main-header">
       <div id="title">
-        <img src={logoImg} alt="" />
+        <img src={logoImg} alt="logo" />
         <h1>FoodShop</h1>
       </div>
       <nav>

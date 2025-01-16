@@ -5,6 +5,7 @@ import { CartContext } from "../store/CartContext";
 
 const MealItem = ({ meal }) => {
   const auth = useContext(CartContext);
+  console.log(meal.image, "meal.image");
   return (
     <li className="meal-item">
       <article>
